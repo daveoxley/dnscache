@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rs/dnscache/internal/singleflight"
+	"github.com/daveoxley/dnscache/internal/singleflight"
 )
 
 type Resolver struct {
